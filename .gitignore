@@ -1,0 +1,69 @@
+# ======================
+# 🔹 Python / Django (backend)
+# ======================
+backend/__pycache__/
+backend/**/*.py[cod]
+backend/**/*.pyc
+backend/*.sqlite3
+backend/db.sqlite3
+backend/venv/
+backend/.mypy_cache/
+backend/pytest_cache/
+backend/coverage/
+backend/htmlcov/
+backend/*.egg-info/
+backend/media/
+backend/staticfiles/
+backend/static/
+
+# ======================
+# 🔹 Node / Vite / Frontend
+# ======================
+frontend/node_modules/
+frontend/dist/
+frontend/dist-ssr/
+frontend/*.local
+frontend/.vite/
+
+# Frontend logs
+frontend/logs/
+frontend/*.log
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+frontend/pnpm-debug.log*
+frontend/lerna-debug.log*
+
+# ======================
+# 🔹 Editor / OS files
+# ======================
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.DS_Store
+Thumbs.db
+
+# ======================
+# 🔹 Docker
+# ======================
+postgres_data/
+redis_data/
+*.pid
+*.sock
+
+# ======================
+# 🔹 General Logs / Misc
+# ======================
+logs/
+*.log
+
+# ======================
+# 🔹 Environment Variables
+# ======================
+*.env
+.env.*
